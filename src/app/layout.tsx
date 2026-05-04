@@ -20,6 +20,28 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Carl Shawn Watkins Consulting™",
   description: "Where emotional intelligence, courageous vulnerability, and purpose-driven leadership meet.",
+  openGraph: {
+    title: "Carl Shawn Watkins Consulting™",
+    description: "Where emotional intelligence, courageous vulnerability, and purpose-driven leadership meet.",
+    url: "https://carlshawnwatkins.com",
+    siteName: "Carl Shawn Watkins Consulting™",
+    images: [
+      {
+        url: "/assets/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Carl Shawn Watkins Consulting™ Logo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Carl Shawn Watkins Consulting™",
+    description: "Where emotional intelligence, courageous vulnerability, and purpose-driven leadership meet.",
+    images: ["/assets/logo.png"],
+  },
 };
 
 export default function RootLayout({
